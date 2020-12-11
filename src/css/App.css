@@ -1,0 +1,27 @@
+:root {
+  --color-violet: hsl(256, 26%, 20%);
+  --color-blue: hsl(216, 30%, 68%);
+  --color-violet-dark: hsl(270, 9%, 17%);
+  --color-violet-gray: hsl(273, 4%, 51%);
+  --color-gray: hsl(0, 0%, 98%); }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Karla", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif; }
