@@ -14,3 +14,40 @@
 .u-mb-m {
   margin-bottom: 5rem;
 }
+
+.span1-active {
+  transform: rotate(135deg) translate(3px, -3px);
+}
+.span2-deactive {
+  opacity: 0;
+}
+
+.span3-active {
+  transform: rotate(-135deg) translate(3px, 3px);
+}
+
+.toggle-active {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: var(--color-violet-dark);
+  height: 160vh;
+  top: 9.1rem;
+  left: 0;
+  width: 100vw;
+  flex-direction: column;
+  z-index: 1000;
+  padding-top: 5rem;
+  & > *:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.fixxed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1015;
+  background-color: var(--color-gray);
+  width: 100vw;
+}

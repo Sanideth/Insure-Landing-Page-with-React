@@ -30,6 +30,11 @@
 .link-primary {
   padding: 0.5em 1em;
   border: 0.1rem solid var(--color-gray);
+  transition: all 0.2s;
+  &:hover {
+    color: var(--color-violet-dark);
+    background-color: var(--color-gray);
+  }
 }
 
 .heading-secondary {
@@ -51,8 +56,9 @@
   color: var(--color-violet-dark);
 }
 
-.icon-secondary {
+.icon-link {
   width: 2rem;
+  height: 2rem;
 }
 
 .heading-quinary {
@@ -62,4 +68,31 @@
   opacity: 0.7;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.nav-btn {
+  display: none;
+  padding: 0.5em 0.2em;
+  position: relative;
+  border: 2px solid var(--color-violet-dark);
+  cursor: pointer;
+  & > *:not(:last-child) {
+    margin-bottom: 0.2rem;
+  }
+  @media only screen and (max-width: $bp-medium) {
+    display: block;
+  }
+}
+
+.btn-span {
+  width: 2rem;
+  height: 2px;
+  background-color: var(--color-violet-dark);
+  display: block;
+  transform-origin: center;
+  transition: all 0.1s;
+  &--3 {
+  }
+  &--1 {
+  }
 }
