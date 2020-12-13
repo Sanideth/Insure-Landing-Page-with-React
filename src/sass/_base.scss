@@ -13,6 +13,8 @@ $bp-largest: 75em; //bp at 1200px
 $bp-large: 62.5em; //bp at 1000px
 $bp-medium: 48em; //bp at 768px
 $bp-small: 42em; //bp at 672 px
+$bp-smaller: 35em; //bp at 560px
+$bp-smallest: 25em; //bp at 400px
 *,
 *::before,
 *::after {
@@ -23,6 +25,9 @@ $bp-small: 42em; //bp at 672 px
 
 html {
   font-size: 62.5%;
+  @media only screen and (max-width: $bp-small) {
+    font-size: 55%;
+  }
 }
 
 body {
@@ -44,6 +49,8 @@ a:link,
 a:visited {
   text-decoration: none;
   font-weight: 700;
+  position: relative;
+  z-index: 11;
 }
 ul {
   list-style: none;

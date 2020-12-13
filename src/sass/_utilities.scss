@@ -38,6 +38,9 @@
   flex-direction: column;
   z-index: 1000;
   padding-top: 5rem;
+  @media only screen and (max-width: $bp-smallest) {
+    top: 6.6rem;
+  }
   & > *:not(:last-child) {
     margin-bottom: 3rem;
   }
@@ -47,7 +50,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1015;
+  z-index: 1000;
   background-color: var(--color-gray);
   width: 100vw;
 }

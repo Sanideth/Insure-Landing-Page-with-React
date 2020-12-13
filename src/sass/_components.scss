@@ -12,6 +12,9 @@
   font-size: 5.5rem;
   font-weight: 300;
   line-height: 0.8;
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 4rem;
+  }
 }
 .heading-primary,
 .text-primary,
@@ -31,6 +34,8 @@
   padding: 0.5em 1em;
   border: 0.1rem solid var(--color-gray);
   transition: all 0.2s;
+  position: relative;
+  z-index: 900;
   &:hover {
     color: var(--color-violet-dark);
     background-color: var(--color-gray);
@@ -50,6 +55,9 @@
   color: var(--color-gray);
   font-size: 3.7rem;
   line-height: 1;
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 2.5rem;
+  }
 }
 .heading-quaternary {
   font-size: 2.1rem;
@@ -59,6 +67,8 @@
 .icon-link {
   width: 2rem;
   height: 2rem;
+  position: relative;
+  z-index: 11;
 }
 
 .heading-quinary {
@@ -72,7 +82,7 @@
 
 .nav-btn {
   display: none;
-  padding: 0.5em 0.2em;
+  padding: 0.6em 0.3em;
   position: relative;
   border: 2px solid var(--color-violet-dark);
   cursor: pointer;
