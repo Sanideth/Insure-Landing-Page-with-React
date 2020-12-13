@@ -1,9 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
-import iconFacebook from "../img/icon-facebook.svg";
-import iconTwitter from "../img/icon-twitter.svg";
-import iconPinterest from "../img/icon-pinterest.svg";
-import iconInstagram from "../img/icon-instagram.svg";
+import sprite from "../img/icons/symbol-defs.svg";
 import IconSecondary from "./IconSecondary";
 import NavListFooter from "./NavListFooter";
 
@@ -13,10 +10,10 @@ const Footer = () => (
       <div className="footer__header">
         <Logo />
         <div className="footer__social-icon-container">
-          <IconSecondary icon={iconFacebook} alt="Facebook Icon" />
-          <IconSecondary icon={iconTwitter} alt="Twitter Icon" />
-          <IconSecondary icon={iconPinterest} alt="Pinterest Icont" />
-          <IconSecondary icon={iconInstagram} alt="Instagram Icon" />
+          <IconSecondary icon={`${sprite}#icon-facebook2`} color="#4267b2" />
+          <IconSecondary icon={`${sprite}#icon-twitter`} color="#1da1f2" />
+          <IconSecondary icon={`${sprite}#icon-pinterest`} color="#e60023" />
+          <IconSecondary icon={`${sprite}#icon-instagram`} color="#c13584" />
         </div>
       </div>
       <nav className="footer__nav">
