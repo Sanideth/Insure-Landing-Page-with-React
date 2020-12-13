@@ -340,14 +340,6 @@ ul {
     .footer__nav-list-link:hover {
       text-decoration: underline; }
 
-.container {
-  max-width: 114rem;
-  margin: 0 auto;
-  padding: 0 4em; }
-
-.logo {
-  width: 8rem; }
-
 .heading-primary {
   font-size: 5.5rem;
   font-weight: 300;
@@ -356,10 +348,29 @@ ul {
     .heading-primary {
       font-size: 4rem; } }
 
-.heading-primary,
-.text-primary,
-.link-primary {
-  color: var(--color-gray); }
+.heading-secondary {
+  color: var(--color-violet-dark);
+  font-size: 4.5rem; }
+
+.heading-tertiary {
+  color: var(--color-gray);
+  font-size: 3.7rem;
+  line-height: 1; }
+  @media only screen and (max-width: 25em) {
+    .heading-tertiary {
+      font-size: 2.5rem; } }
+
+.heading-quaternary {
+  font-size: 2.1rem;
+  color: var(--color-violet-dark); }
+
+.heading-quinary {
+  font-family: inherit;
+  color: var(--color-violet-gray);
+  font-size: 1.5rem;
+  opacity: 0.7;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 .text-primary {
   line-height: 1.5; }
@@ -377,38 +388,14 @@ ul {
     color: var(--color-violet-dark);
     background-color: var(--color-gray); }
 
-.heading-secondary {
-  color: var(--color-violet-dark);
-  font-size: 4.5rem; }
-
 .icon-main {
   width: 5.5rem; }
-
-.heading-tertiary {
-  color: var(--color-gray);
-  font-size: 3.7rem;
-  line-height: 1; }
-  @media only screen and (max-width: 25em) {
-    .heading-tertiary {
-      font-size: 2.5rem; } }
-
-.heading-quaternary {
-  font-size: 2.1rem;
-  color: var(--color-violet-dark); }
 
 .icon-link {
   width: 2rem;
   height: 2rem;
   position: relative;
   z-index: 11; }
-
-.heading-quinary {
-  font-family: inherit;
-  color: var(--color-violet-gray);
-  font-size: 1.5rem;
-  opacity: 0.7;
-  font-weight: 600;
-  text-transform: uppercase; }
 
 .nav-btn {
   display: none;
@@ -429,6 +416,19 @@ ul {
   display: block;
   transform-origin: center;
   transition: all 0.1s; }
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 4em; }
+
+.logo {
+  width: 8rem; }
+
+.heading-primary,
+.text-primary,
+.link-primary {
+  color: var(--color-gray); }
 
 .u-mb-t {
   margin-bottom: 1rem; }
