@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Insure-Landing-Page-with-React/static/css/main.2b564b46.chunk.css",
-    "main.js": "/Insure-Landing-Page-with-React/static/js/main.9daeb608.chunk.js",
-    "main.js.map": "/Insure-Landing-Page-with-React/static/js/main.9daeb608.chunk.js.map",
+    "main.js": "/Insure-Landing-Page-with-React/static/js/main.cc2a8dbc.chunk.js",
+    "main.js.map": "/Insure-Landing-Page-with-React/static/js/main.cc2a8dbc.chunk.js.map",
     "runtime-main.js": "/Insure-Landing-Page-with-React/static/js/runtime-main.fa78d72c.js",
     "runtime-main.js.map": "/Insure-Landing-Page-with-React/static/js/runtime-main.fa78d72c.js.map",
     "static/js/2.0ee55b19.chunk.js": "/Insure-Landing-Page-with-React/static/js/2.0ee55b19.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.fa78d72c.js",
     "static/js/2.0ee55b19.chunk.js",
     "static/css/main.2b564b46.chunk.css",
-    "static/js/main.9daeb608.chunk.js"
+    "static/js/main.cc2a8dbc.chunk.js"
   ]
 }
