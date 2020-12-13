@@ -41,7 +41,8 @@ a:visited {
   text-decoration: none;
   font-weight: 700;
   position: relative;
-  z-index: 11; }
+  z-index: 11;
+  text-transform: uppercase; }
 
 ul {
   list-style: none; }
