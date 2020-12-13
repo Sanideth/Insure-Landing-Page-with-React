@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { css } from "@emotion/css";
 
 const IconSecondary = (props) => {
-  const { icon, color } = props;
+  const { icon, color, ariaLabel } = props;
   const [fill, setFill] = useState("hsl(273, 4%, 51%)");
 
   const setStyle = (newColor) => {
@@ -17,7 +17,11 @@ const IconSecondary = (props) => {
   `;
 
   return (
-    <a href="https://github.com/Sanideth" className="icon-link">
+    <a
+      href="https://github.com/Sanideth"
+      className="icon-link"
+      aria-label={ariaLabel}
+    >
       <svg
         className={iconSecondary}
         onMouseEnter={() => setStyle(color)}
