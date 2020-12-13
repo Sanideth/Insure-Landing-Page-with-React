@@ -10,10 +10,26 @@ const Footer = () => (
       <div className="footer__header">
         <Logo />
         <div className="footer__social-icon-container">
-          <IconSecondary icon={`${sprite}#icon-facebook2`} color="#4267b2" />
-          <IconSecondary icon={`${sprite}#icon-twitter`} color="#1da1f2" />
-          <IconSecondary icon={`${sprite}#icon-pinterest`} color="#e60023" />
-          <IconSecondary icon={`${sprite}#icon-instagram`} color="#c13584" />
+          <IconSecondary
+            icon={`${sprite}#icon-facebook2`}
+            color="#4267b2"
+            ariaLabel="Facebook Link"
+          />
+          <IconSecondary
+            icon={`${sprite}#icon-twitter`}
+            color="#1da1f2"
+            ariaLabel="Twitter Link"
+          />
+          <IconSecondary
+            icon={`${sprite}#icon-pinterest`}
+            color="#e60023"
+            ariaLabel="Pinterest Link"
+          />
+          <IconSecondary
+            icon={`${sprite}#icon-instagram`}
+            color="#c13584"
+            ariaLabel="Instagram Link"
+          />
         </div>
       </div>
       <nav className="footer__nav">
