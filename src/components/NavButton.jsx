@@ -20,6 +20,7 @@ const NavButton = () => {
       className="btn nav-btn"
       type="button"
       id="btn-nav"
+      aria-label="Navigation Button"
       onClick={btnClick}
     >
       <span className="btn-span btn-span--1" id="span-1" />
