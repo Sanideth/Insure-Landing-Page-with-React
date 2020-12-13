@@ -5,7 +5,7 @@ import mobileImg from "../img/image-intro-mobile.jpg";
 const HeroImage = () => (
   <img
     src={desktopImg}
-    srcSet={`${mobileImg} 768w, ${desktopImg} 1280w`}
+    srcSet={`${desktopImg} 1280w, ${mobileImg} 768w`}
     alt="Intro"
     className="header__img"
   />
