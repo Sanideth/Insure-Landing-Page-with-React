@@ -1,3 +1,6 @@
+// Base styles
+
+// Css variables for colors
 :root {
   --color-violet: hsl(256, 26%, 20%);
   --color-blue: hsl(216, 30%, 68%);
@@ -9,12 +12,16 @@
   --color-pinterest: #e60023;
   --color-instagram: #c13584;
 }
+
+// Variables for media queries
+
 $bp-largest: 75em; //bp at 1200px
 $bp-large: 62.5em; //bp at 1000px
 $bp-medium: 48em; //bp at 768px
 $bp-small: 42em; //bp at 672 px
 $bp-smaller: 35em; //bp at 560px
 $bp-smallest: 25em; //bp at 400px
+
 *,
 *::before,
 *::after {
@@ -24,7 +31,7 @@ $bp-smallest: 25em; //bp at 400px
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; // Font size reset to 1rem = 10px
   @media only screen and (max-width: $bp-small) {
     font-size: 55%;
   }
