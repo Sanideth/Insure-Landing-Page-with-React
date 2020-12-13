@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Insure-Landing-Page-with-React/static/css/main.b54c5baa.chunk.css",
+    "main.js": "/Insure-Landing-Page-with-React/static/js/main.512c79ee.chunk.js",
+    "main.js.map": "/Insure-Landing-Page-with-React/static/js/main.512c79ee.chunk.js.map",
+    "runtime-main.js": "/Insure-Landing-Page-with-React/static/js/runtime-main.fa78d72c.js",
+    "runtime-main.js.map": "/Insure-Landing-Page-with-React/static/js/runtime-main.fa78d72c.js.map",
+    "static/js/2.0ee55b19.chunk.js": "/Insure-Landing-Page-with-React/static/js/2.0ee55b19.chunk.js",
+    "static/js/2.0ee55b19.chunk.js.map": "/Insure-Landing-Page-with-React/static/js/2.0ee55b19.chunk.js.map",
+    "static/js/3.907de17b.chunk.js": "/Insure-Landing-Page-with-React/static/js/3.907de17b.chunk.js",
+    "static/js/3.907de17b.chunk.js.map": "/Insure-Landing-Page-with-React/static/js/3.907de17b.chunk.js.map",
+    "index.html": "/Insure-Landing-Page-with-React/index.html",
+    "static/css/main.b54c5baa.chunk.css.map": "/Insure-Landing-Page-with-React/static/css/main.b54c5baa.chunk.css.map",
+    "static/js/2.0ee55b19.chunk.js.LICENSE.txt": "/Insure-Landing-Page-with-React/static/js/2.0ee55b19.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Insure-Landing-Page-with-React/static/media/bg-pattern-intro-right-mobile.0354e571.svg",
+    "static/media/icon-affordable-prices.a14b8077.svg": "/Insure-Landing-Page-with-React/static/media/icon-affordable-prices.a14b8077.svg",
+    "static/media/icon-people-first.d7caeec6.svg": "/Insure-Landing-Page-with-React/static/media/icon-people-first.d7caeec6.svg",
+    "static/media/icon-snappy-process.eea91882.svg": "/Insure-Landing-Page-with-React/static/media/icon-snappy-process.eea91882.svg",
+    "static/media/image-intro-desktop.2f3429f6.jpg": "/Insure-Landing-Page-with-React/static/media/image-intro-desktop.2f3429f6.jpg",
+    "static/media/image-intro-mobile.8b8c3185.jpg": "/Insure-Landing-Page-with-React/static/media/image-intro-mobile.8b8c3185.jpg",
+    "static/media/logo.b84080a1.svg": "/Insure-Landing-Page-with-React/static/media/logo.b84080a1.svg",
+    "static/media/symbol-defs.5ebbfd74.svg": "/Insure-Landing-Page-with-React/static/media/symbol-defs.5ebbfd74.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa78d72c.js",
+    "static/js/2.0ee55b19.chunk.js",
+    "static/css/main.b54c5baa.chunk.css",
+    "static/js/main.512c79ee.chunk.js"
+  ]
+}
